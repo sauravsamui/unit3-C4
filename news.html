@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detailed news</title>
+    <style>
+      
+       #navbar{
+        display: flex;
+      
+       justify-content: space-evenly;
+       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+      #search_input{
+        width:80%;
+        height:30px;
+        margin-top: 20px;
+        border-radius: 10px;
+        padding-left: 10px;
+        font-size: medium;
+       
+      }
+      h1>a{
+        text-decoration: none;
+        cursor: pointer;
+
+      }
+      #detailed_news{
+        width:70%;
+        margin: auto;
+        margin-top: 50px;
+        font-family:sans-serif;
+        background-color: rgb(206, 214, 212);
+        line-height: 20px;
+        padding: 10px;
+      }
+      #detailed_news>  img{
+        width:100%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      }
+      #detailed_news>h3{
+       background-color: antiquewhite;
+       padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <!-- Same navbar with same functionality  -->
+    <!-- Append detailed news in div with id "detailed_news"  -->
+    <div id="detailed_news"></div>
+  </body>
+</html>
+<script src="./scripts/news.js" type="module"></script>
